@@ -1,0 +1,2 @@
+PhalconModelJSONDistiller.php extends the Phalcon ORM Model class to add a set of methods which will process or "distill" a complex JSON object that matches the user defined model.  Extending this model for your PHP model class will let your application accept JSON representations of that model class as a string parameter to the distill method.  The distill method will automatically populate your model if the JSON object keys match the names of the model properties--by convention.  It handles nested objects by processing each recursively.
+
